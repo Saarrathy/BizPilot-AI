@@ -47,3 +47,21 @@ npm run dev
 
 Saarrathy
 GitHub: https://github.com/Saarrathy
+
+## 📸 Screenshots
+
+### Login Page
+![Login](docs/screenshots/login.png)
+
+### Dashboard
+![Dashboard](docs/screenshots/dashboard.png)
+
+### Finance Module
+![Finance](docs/screenshots/finance.png)
+
+### Customer Support
+![Support](docs/screenshots/support.png)
+
+### Profile
+![Profile](docs/screenshots/profile.png)
+
