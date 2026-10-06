@@ -3,11 +3,12 @@
 An AI-Powered Business Management System built using **React.js**, **FastAPI**, **Python**, **SQLite**, **SQLAlchemy**, **Material UI**, and **JWT Authentication**.
 
 ---
+
 # Project Overview
 
-**BizPilot AI** is a modern full-stack business management platform designed to simplify day-to-day business operations through a clean web interface and secure backend.
+**BizPilot AI** is a modern full-stack business management platform designed to simplify business operations through a secure backend and interactive web dashboard.
 
-The application enables businesses to manage finance, customers, sales, inventory, employees, reports, documents, and customer support from a centralized dashboard. It also includes an AI Assistant module to support business decision-making and improve productivity.
+The application helps businesses manage finance, customers, sales, inventory, employees, reports, documents, and customer support from a centralized platform. It also includes an AI Assistant module for intelligent business support.
 
 ---
 
@@ -15,7 +16,7 @@ The application enables businesses to manage finance, customers, sales, inventor
 
 * Secure User Registration & Login
 * JWT Authentication
-* Interactive Business Dashboard
+* Interactive Dashboard
 * Finance Management
 * Customer Management
 * Sales Management
@@ -23,11 +24,11 @@ The application enables businesses to manage finance, customers, sales, inventor
 * HR Management
 * Business Reports
 * Document Management
-* AI Assistant Module
+* AI Assistant
 * Customer Support System
 * User Profile Management
 * Settings Module
-* Responsive User Interface
+* Responsive UI
 
 ---
 
@@ -53,60 +54,27 @@ The application enables businesses to manage finance, customers, sales, inventor
 
 ---
 
-# Modules
-
-The application consists of the following business modules:
-
-* Dashboard
-* Finance
-* Customers
-* Sales
-* Inventory
-* Human Resources (HR)
-* Reports
-* Documents
-* AI Assistant
-* Customer Support
-* Profile
-* Settings
-
----
-
 # Application Screenshots
-
-## Login Page
-
-![Login](docs/screenshots/login.png)
-
----
 
 ## Dashboard
 
 ![Dashboard](docs/screenshots/dashboard.png)
 
----
-
 ## Finance Module
 
 ![Finance](docs/screenshots/finance.png)
-
----
 
 ## Customer Support
 
 ![Customer Support](docs/screenshots/customer-support.png)
 
----
-
 ## Settings
 
 ![Settings](docs/screenshots/settings.png)
 
----
+## Backend API
 
-## Backend API (Swagger)
-
-![Backend API](docs/screenshots/backend.png)
+![Backend](docs/screenshots/backend.png)
 
 ---
 
@@ -133,11 +101,6 @@ BizPilot-AI/
 │
 ├── docs/
 │   └── screenshots/
-│       ├── backend.png
-│       ├── dashboard.png
-│       ├── finance.png
-│       ├── customer-support.png
-│       └── settings.png
 │
 ├── tests/
 │
