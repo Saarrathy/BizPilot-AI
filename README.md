@@ -6,9 +6,9 @@ An AI-Powered Business Management System built using **React.js**, **FastAPI**, 
 
 # Project Overview
 
-**BizPilot AI** is a modern full-stack business management platform designed to simplify business operations through a secure backend and interactive web dashboard.
+**BizPilot AI** is a modern full-stack business management platform designed to simplify day-to-day business operations through a clean web interface and secure backend.
 
-The application helps businesses manage finance, customers, sales, inventory, employees, reports, documents, and customer support from a centralized platform. It also includes an AI Assistant module for intelligent business support.
+The application enables businesses to manage finance, customers, sales, inventory, employees, reports, documents, and customer support from a centralized dashboard. It also includes an AI Assistant module to support business decision-making and improve productivity.
 
 ---
 
@@ -16,7 +16,7 @@ The application helps businesses manage finance, customers, sales, inventory, em
 
 * Secure User Registration & Login
 * JWT Authentication
-* Interactive Dashboard
+* Interactive Business Dashboard
 * Finance Management
 * Customer Management
 * Sales Management
@@ -24,11 +24,11 @@ The application helps businesses manage finance, customers, sales, inventory, em
 * HR Management
 * Business Reports
 * Document Management
-* AI Assistant
+* AI Assistant Module
 * Customer Support System
 * User Profile Management
 * Settings Module
-* Responsive UI
+* Responsive User Interface
 
 ---
 
@@ -54,6 +54,23 @@ The application helps businesses manage finance, customers, sales, inventory, em
 
 ---
 
+# Modules
+
+* Dashboard
+* Finance
+* Customers
+* Sales
+* Inventory
+* Human Resources (HR)
+* Reports
+* Documents
+* AI Assistant
+* Customer Support
+* Profile
+* Settings
+
+---
+
 # Application Screenshots
 
 ## Dashboard
@@ -66,12 +83,9 @@ The application helps businesses manage finance, customers, sales, inventory, em
 
 ## Customer Support
 
-![Customer Support](docs/screenshots/customer-support.png)
-
-## Settings
-
-![Settings](docs/screenshots/settings.png)
-
+![Customer Support](docs/screenshots/customer support.png)
+## Setting
+![Setting](docs/screenshots/setting.png)
 ## Backend API
 
 ![Backend](docs/screenshots/backend.png)
