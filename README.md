@@ -3,12 +3,11 @@
 An AI-Powered Business Management System built using **React.js**, **FastAPI**, **Python**, **SQLite**, **SQLAlchemy**, **Material UI**, and **JWT Authentication**.
 
 ---
-
 # Project Overview
 
-**BizPilot AI** is a modern full-stack business management platform designed to simplify business operations through a secure backend and interactive web dashboard.
+**BizPilot AI** is a modern full-stack business management platform designed to simplify day-to-day business operations through a clean web interface and secure backend.
 
-The application helps businesses manage finance, customers, sales, inventory, employees, reports, documents, and customer support from a centralized platform. It also includes an AI Assistant module for intelligent business support.
+The application enables businesses to manage finance, customers, sales, inventory, employees, reports, documents, and customer support from a centralized dashboard. It also includes an AI Assistant module to support business decision-making and improve productivity.
 
 ---
 
@@ -16,7 +15,7 @@ The application helps businesses manage finance, customers, sales, inventory, em
 
 * Secure User Registration & Login
 * JWT Authentication
-* Interactive Dashboard
+* Interactive Business Dashboard
 * Finance Management
 * Customer Management
 * Sales Management
@@ -24,11 +23,11 @@ The application helps businesses manage finance, customers, sales, inventory, em
 * HR Management
 * Business Reports
 * Document Management
-* AI Assistant
+* AI Assistant Module
 * Customer Support System
 * User Profile Management
 * Settings Module
-* Responsive UI
+* Responsive User Interface
 
 ---
 
@@ -54,27 +53,60 @@ The application helps businesses manage finance, customers, sales, inventory, em
 
 ---
 
+# Modules
+
+The application consists of the following business modules:
+
+* Dashboard
+* Finance
+* Customers
+* Sales
+* Inventory
+* Human Resources (HR)
+* Reports
+* Documents
+* AI Assistant
+* Customer Support
+* Profile
+* Settings
+
+---
+
 # Application Screenshots
+
+## Login Page
+
+![Login](docs/screenshots/login.png)
+
+---
 
 ## Dashboard
 
 ![Dashboard](docs/screenshots/dashboard.png)
 
+---
+
 ## Finance Module
 
 ![Finance](docs/screenshots/finance.png)
+
+---
 
 ## Customer Support
 
 ![Customer Support](docs/screenshots/customer-support.png)
 
+---
+
 ## Settings
 
 ![Settings](docs/screenshots/settings.png)
 
-## Backend API
+---
 
-![Backend](docs/screenshots/backend.png)
+## Backend API (Swagger)
+
+![Backend API](docs/screenshots/backend.png)
 
 ---
 
@@ -101,73 +133,129 @@ BizPilot-AI/
 │
 ├── docs/
 │   └── screenshots/
+│       ├── backend.png
+│       ├── dashboard.png
+│       ├── finance.png
+│       ├── customer-support.png
+│       └── settings.png
 │
 ├── tests/
 │
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-Installation
-Clone Repository
+`
+
+---
+
+# Installation
+
+## Clone the Repository
+
+`ash
 git clone https://github.com/Saarrathy/BizPilot-AI.git
-Backend Setup
+`
+
+## Navigate to the Project Directory
+
+`ash
+cd BizPilot-AI
+`
+
+## Backend Setup
+
+`ash
 cd backend
 
 pip install -r requirements.txt
 
 py -m uvicorn app.main:app --reload
+`
 
-Backend:
+Backend runs at:
 
+`	ext
 http://127.0.0.1:8000
+`
 
-Swagger:
+Swagger API:
 
+`	ext
 http://127.0.0.1:8000/docs
-Frontend Setup
+`
+
+---
+
+## Frontend Setup
+
+`ash
 cd frontend
 
 npm install
 
 npm run dev
+`
 
-Frontend:
+Frontend runs at:
 
+`	ext
 http://localhost:5173
-Future Enhancements
-AI-powered business analytics
-Sales forecasting
-Cloud deployment
-Real-time notifications
-Advanced business insights
-Multi-user role management
-Developer
-Saarrathy
+`
 
-B.Tech – Computer Science & Engineering
+---
 
-Passionate about Full-Stack Development, Artificial Intelligence, Machine Learning, Data Analytics, and modern web technologies. Interested in creating scalable software solutions for real-world problems.
+# Future Enhancements
 
-Contact
+* AI-powered business analytics
+* Sales forecasting
+* Real-time notifications
+* Cloud deployment
+* Multi-user role management
+* Export reports as PDF & Excel
+* Email notifications
+* Advanced business insights
 
-Email:
-saarrathy25@gmail.com
+---
 
-GitHub:
-https://github.com/Saarrathy
+# Developer
 
-Acknowledgements
+## Saarrathy
+
+**B.Tech – Computer Science & Engineering**
+
+I am passionate about Full-Stack Development, Artificial Intelligence, Machine Learning, Data Analytics, and modern web technologies. I enjoy building practical software solutions that solve real-world business problems through scalable and user-friendly applications.
+
+### Contact
+
+**Email:** saarrathy25@gmail.com
+
+**GitHub:** https://github.com/Saarrathy
+
+---
+
+# Acknowledgements
+
+This project was developed as a personal full-stack learning and portfolio project.
 
 Special thanks to:
 
-FastAPI
-React.js
-Material UI
-SQLAlchemy
-Vite
-Open Source Community
-License
+* FastAPI
+* React.js
+* Material UI
+* SQLAlchemy
+* Vite
+* Open Source Community
+
+---
+
+# License
 
 This project is intended for educational and portfolio purposes.
 
-⭐ If you like this project, consider giving it a star on GitHub.
+---
+
+# Support
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+Thank you for visiting this repository.
